@@ -1,135 +1,59 @@
-html, body
+html
 {
-  height: 100%;
-}
-
-header, nav,  main
-{
-  padding: 20px 30px;
-}
-header
-{
-  float: left;
-}
-nav
-{
-  float:right;
-}
-main
-{
-  clear: both;
+  height: 80%;
+  width: 50%;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 body
 {
-  font-family:  'Lato', sans-serif;
-  background: #FFFC66;
-  color: white;
-  font-size: 1vw;
+  font-family:  'Libre Baskerville', sans-serif;
+  background: whitesmoke;
+  color: #4e4d51;
+  font-size: 14px;
   padding: 0;
-  margin: 0;
+  padding-top: 50px;
 }
 
-.home
-{
-    background-image: url("images/asteroids.jpg");
-}
-
-.myKidImage
-{
-  float: left;
-  margin: 0 10px 0 0;
-}
-
-blockquote
-{
-  clear: both;
-  text-align: center;
-  padding: 10px;
-}
-
-blockquote p
-{
-  font-family: 'Sansita', 'Lato', sans-serif;
-}
-
-h1, h2
-{
-  font-family: 'PT Sans Narrow', 'Lato', sans-serif;
-  font-weight: 20px; /* removes default bold styles */
-  text-transform: uppercase;
-  margin: 0;
-}
-
-nav a
-{
-  padding: 10px 20px;
-  font-size: 1vw;
-}
-
-a
-{
-  color: #F598E4;
-}
-
-/* FOOTER STYLES
------------------------------------------*/
-/* Sticky Footer - http://css-tricks.com/snippets/css/sticky-footer */
-.page-wrap
-{
-  min-height: 100%;
-  margin-bottom: -55px; /* must be the same height as footer */
-}
-.page-wrap:after
-{
-  content: "";
+.image-cropper {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
   display: block;
-}
-footer, .page-wrap:after
-{
-  height: 55px; /* however tall you want the footer to be */
-}
-footer
-{
-  font-size: 0.8vw;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* CONTACT STYLES
------------------------------------------*/
-.contact_form_wrapper
-{
-  padding: 20px;
+.profile {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
 }
 
-.contact_form
-{
-    clear: both;
+.logo {
+  height: 25px;
+  width: 25px;
+  padding: 10px 10px 10px 10px;
 }
-form
+
+h1
 {
-  font-family:  'Lato', sans-serif;
-  width: 400px;
+  margin: 0;
+  color: #f44268;
+  padding-top: 50px;
 }
-input, textarea
-{
-  border: 1px solid #F598E4;
-  width: 400px;
-  margin-bottom: 10px;
+
+.main-content {
+  padding: 50px 50px 50px 50px;
 }
-input
-{
-  height: 20px;
-}
-textarea
-{
-  height: 100px;
-}
-button
-{
-  background: #F598E4;
-  color: white;
-  border: none;
-  padding: 10px 40px;
-  font-size: 16px;
+
+
+footer {
+  height: 55px;
 }
