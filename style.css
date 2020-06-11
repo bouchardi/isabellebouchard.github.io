@@ -11,7 +11,7 @@ html
 body
 {
   font-family:  'Courier', monospace;
-  background: whitesmoke;
+  background: #e8e3e3;
   color: #4e4d51;
   font-size: 14px;
   padding: 0;
@@ -50,10 +50,14 @@ h1
 }
 
 .main-content {
-  padding: 50px 50px 50px 50px;
+  padding: 55px 55px 55px 55px;
 }
 
 
 footer {
   height: 55px;
+}
+
+.logo-link {
+  color: #e8e3e3;
 }
