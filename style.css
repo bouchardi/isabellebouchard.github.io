@@ -10,7 +10,7 @@ html
 
 body
 {
-  font-family:  'Libre Baskerville', sans-serif;
+  font-family:  'Courier', monospace;
   background: whitesmoke;
   color: #4e4d51;
   font-size: 14px;
@@ -19,8 +19,8 @@ body
 }
 
 .image-cropper {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   position: relative;
   overflow: hidden;
   border-radius: 50%;
@@ -45,7 +45,7 @@ body
 h1
 {
   margin: 0;
-  color: #f44268;
+  color: #e34d42;
   padding-top: 50px;
 }
 
